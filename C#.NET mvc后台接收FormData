@@ -1,0 +1,6 @@
+public JsonResult upload_file() {
+
+            HttpPostedFileBase hpfb = Request.Files["fileImg"];
+            string imgDesc = Request.Form["fileTitle"];
+            return json();
+            }
